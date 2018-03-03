@@ -1,0 +1,23 @@
+{
+  "name": "mapplied",
+  "version": "1.0.0",
+  "description": "NodeJS module for the distributive calculating, verifying and ultimately simulating of virtual spaces using hash-link algorithms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyRuffino/mapplied.git"
+  },
+  "keywords": [
+    "mapplied",
+    "procedural generation"
+  ],
+  "author": "Anthony Ruffino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnthonyRuffino/mapplied/issues"
+  },
+  "homepage": "https://github.com/AnthonyRuffino/mapplied#readme"
+}
