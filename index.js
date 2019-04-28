@@ -6,9 +6,8 @@ var Mapplied = {};
 Mapplied.universe = {};
 
 Mapplied.hasher = null;
-Mapplied.guid = null;
 
-Mapplied.universe.name = "Mason Williams Ruffino was born June 9th 2007";
+Mapplied.universe.name = null;
 Mapplied.universe.hash = null;
 Mapplied.universe.hashAnalysis = null;
 
@@ -464,9 +463,9 @@ function isNumeric(str){
 
 
 
-Mapplied.init = function(hasher, guid) {
+Mapplied.init = function(hasher, name) {
     Mapplied.hasher = hasher;
-    Mapplied.guid = guid;
+    Mapplied.universe.name = name;
     Mapplied.universe.hash = hasher.hash(Mapplied.universe.name);
     Mapplied.universe.hashAnalysis = Mapplied.getHashAnalysis(Mapplied.universe.hash);
 };
