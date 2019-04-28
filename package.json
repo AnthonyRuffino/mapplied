@@ -1,6 +1,6 @@
 {
   "name": "mapplied",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS module for the distributive calculating, verifying and ultimately simulating of virtual spaces using hash-link algorithms.",
   "main": "index.js",
   "scripts": {
